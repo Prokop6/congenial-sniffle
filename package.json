@@ -1,0 +1,38 @@
+{
+  "name": "congenial-sniffle",
+  "version": "0.0.0",
+  "description": "",
+  "targets": {
+    "browser": {
+      "source": "index.html",
+      "distDir": "/app"
+    }
+  },
+
+  "scripts": {
+    "build": "parcel build",
+    "serve": "parcel serve -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prokop6/congenial-sniffle.git"
+  },
+  "keywords": [],
+  "author": "Marcin Prokop <mr.prokop.6+dev@gmail.com",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Prokop6/congenial-sniffle/issues"
+  },
+  "homepage": "https://github.com/Prokop6/congenial-sniffle#readme",
+  "dependencies": {
+    "node-ts": "^5.1.2",
+    "parcel": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "@types/typescript": "^2.0.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5"
+  }
+}
